@@ -1,7 +1,8 @@
 package org.gs;
 
-public class Main {
+public class App {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        HttpImageStatusCli httpImageStatusCli = new HttpImageStatusCli();
+        httpImageStatusCli.askStatus();
     }
 }
