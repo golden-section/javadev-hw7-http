@@ -8,7 +8,7 @@ import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 
 public class HttpStatusImageDownloader {
-    private static final String IMAGES_FOLDER = "./images/";
+    private static final String IMAGES_FOLDER = "./";
     private static final String EXTENSION = ".jpg";
 
     public void downloadStatusImage(int code) {
